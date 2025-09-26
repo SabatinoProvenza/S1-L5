@@ -52,6 +52,7 @@ header button {
   padding: 1em;
   font-family: Montserrat;
   font-weight: bold;
+  cursor: pointer;
 }
 section {
   text-align: center;
