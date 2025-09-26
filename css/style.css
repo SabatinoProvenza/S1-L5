@@ -1,1 +1,32 @@
-/* Your styles here */
+body {
+  max-width: 100%;
+}
+div,
+section,
+p {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+#logo {
+  text-align: center;
+  background: black;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  margin-bottom: 0%;
+}
+header div:last-of-type {
+  background-image: url(/images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-top: 0%;
+}
