@@ -1,5 +1,7 @@
 body {
   max-width: 100%;
+  font-family: open sans;
+  line-height: 1.65;
 }
 div,
 section,
@@ -13,20 +15,97 @@ h3,
 h4,
 h5,
 h6 {
+  margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   font-weight: bold;
   font-size: 1.4em;
+  line-height: 1.5;
+  color: #25a2c3;
+}
+img {
+  max-width: 100%;
 }
 #logo {
   text-align: center;
   background: black;
-  padding-bottom: 2em;
+  padding-bottom: 4em;
   padding-top: 2em;
-  margin-bottom: 0%;
+  margin-bottom: -30px;
+  margin-top: 0%;
 }
+
 header div:last-of-type {
   background-image: url(/images/banner.jpg);
   background-position: center;
   background-size: cover;
+  padding-top: 15%;
+  padding-bottom: 15%;
   margin-top: 0%;
+  text-align: center;
+}
+header button {
+  background-color: #f04c2f;
+  color: white;
+  border: 1px solid;
+  border-radius: 8%;
+  border-color: #f04c2f;
+  padding: 1em;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+section {
+  text-align: center;
+}
+section img {
+  border-radius: 40%;
+}
+#cit {
+  background-color: orangered;
+  color: white;
+  text-align: center;
+}
+#cit h1 {
+  color: white;
+  padding-top: 2em;
+}
+#cit span {
+  font-style: italic;
+}
+#cita {
+  margin-top: -20px;
+  padding-bottom: 3em;
+  font-size: small;
+}
+nav div {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+  border: 1px solid #dee1e3;
+  border-radius: 1%;
+  box-shadow: 50%;
+  text-align: center;
+}
+footer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: #53aac2;
+}
+footer h2 {
+  color: white;
+}
+footer a {
+  color: #c8e7f0;
+}
+footer p {
+  color: #c8e7f0;
+  margin-bottom: 0%;
+  margin-top: 2%;
+}
+hr {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 50%;
+  border-color: rgba(255, 255, 255, 0.76);
 }
